@@ -8,7 +8,7 @@ Key Classes:
 
 3. ShoppingCartService: Handles the shopping cart functionality. Users can add books to their cart, update quantities, remove items, view cart contents, and calculate the total price.
 
-4. OrderService: Manages the order process. It handles order creation, calculates the total cost of items in the cart, and stores the details in the database tables (`orders` and `order_details`).
+4. OrderService: Manages the order process. It handles order creation, calculates the total cost of items in the cart, and stores the details in the database tables ('orders' and 'order_details').
 
 5. App: The main class that brings everything together. It provides the user interface where users can register, login, add books, view the shopping cart, and checkout. It integrates services like 'UserService', 'BookService', 'ShoppingCartService', and 'OrderService' to offer a cohesive user experience.
 
